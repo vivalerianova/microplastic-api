@@ -2,4 +2,3 @@ fastapi
 uvicorn
 requests
 numpy
-global-land-mask
