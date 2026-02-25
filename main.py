@@ -2,7 +2,6 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 import numpy as np
 import requests
-from global_land_mask import globe
 import math
 
 app = FastAPI()
@@ -89,3 +88,4 @@ def forecast(req: ForecastRequest):
         "grid": grid,
         "particles_preview": particles_preview
     }
+
